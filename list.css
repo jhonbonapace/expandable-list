@@ -1,0 +1,17 @@
+tbody > tr > td:first-child {
+    text-align: center;
+    cursor: pointer;
+}
+
+.innerTable {
+    width: 50%;
+}
+
+.innerTable > tbody > tr > td {
+    text-align: left;
+    cursor: default;
+}
+
+.ignore tr, .ignore td{
+    cursor: default!important;
+}
